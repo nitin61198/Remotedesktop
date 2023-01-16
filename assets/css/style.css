@@ -429,6 +429,7 @@ border-radius: 3px;
 padding: 10px;
 background-color:#eb3472;
 z-index: 1000;
+cursor: pointer;
 }
 
 .sub-menu{
@@ -445,9 +446,11 @@ display: block;
   align-items: center;
   color: white;
   padding: 8px 10px 8px 0;
+  cursor: pointer;
 }
 .sub-menu-item:hover,.sub-menu-item a:hover {
   color: black;
+  cursor: pointer;
 }
 
 /*-----------------------------------*\
