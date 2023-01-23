@@ -217,7 +217,11 @@ body {
 
 .btn:is(:hover, :focus) { background-position: right; }
 
-.w-100 { width: 100%; }
+.w-100 { 
+  width: 100%; 
+  position: relative;
+  bottom: 27px;
+}
 
 .banner-animation { animation: waveAnim 2s linear infinite alternate; }
 
@@ -434,6 +438,8 @@ cursor: pointer;
 
 .sub-menu{
   position: relative;
+  
+  
 }
 
 .sub-menu:hover  .hero-sub-menu{
@@ -493,8 +499,14 @@ display: block;
 
 
 
+/*-----------------------------------*\
+  #PACKAGES
+\*-----------------------------------*/
 
-
+/* .text-pre{
+  position: relative;
+  right: 80px;
+} */
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
@@ -546,9 +558,9 @@ display: block;
 
 .service-card .card-btn {
   margin-inline: auto;
-  padding: 15px;
+  padding: 15px 20px;
   border: 1px solid var(--winter-sky);
-  border-radius: 50%;
+  border-radius: 10%;
   color: var(--winter-sky);
   transition: var(--transition-1);
 }
@@ -597,8 +609,14 @@ display: block;
 }
 
 
+/*-----------------------------------*\
+  #PACKAGES
+\*-----------------------------------*/
 
-
+.text-pre1{
+  position: relative;
+  right: 40px;
+}
 
 /*-----------------------------------*\
   #BLOG
@@ -758,6 +776,7 @@ display: block;
 .copyright-link {
   display: inline-block;
   text-decoration: underline;
+  color: #EF1F76;
 }
 
 .copyright-link:is(:hover, :focus) { text-decoration: none; }
