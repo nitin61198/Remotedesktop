@@ -831,7 +831,34 @@ display: block;
 }
 
 
+.container1 {
+  display: inline-block;
+}
+.text1{
+  font-size: 4.2rem;
+  /* letter-spacing: 10px; */
+  /* font-family: monospace; */
+  border-right: 5px solid;
+  width: 100%;
+  /* text-overflow: wrap; */
 
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+      typing 2.5s infinite,
+      cursor .4s step-end infinite alternate;
+          
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {border-color:transparent}
+}
+
+/* typing effect */
+@keyframes typing {
+  from {width:0}
+}
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -839,6 +866,12 @@ display: block;
 /**
  * responsive for larger than 550px screen
  */
+
+@media (max-width:450px){
+  .text1{
+    font-size: 2.5rem;
+  }
+}
 
 @media (min-width: 550px) {
 
@@ -851,6 +884,7 @@ display: block;
     margin-inline: auto;
   }
 
+ 
   .section-title { --fs-3: 3.6rem; }
 
 
@@ -921,6 +955,10 @@ display: block;
   /**
    * REUSED STYLE
    */
+
+   /* .text{
+    font-size:2rem;
+   } */
 
   .container { max-width: 720px; }
 
