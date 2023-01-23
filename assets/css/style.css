@@ -2,9 +2,7 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
+
 
 
 
@@ -222,7 +220,7 @@ body {
 .btn:is(:hover, :focus) { background-position: right; }
 
 .w-100 { 
-  width: 100%; 
+  width: 103%; 
   position: relative;
   bottom: 27px;
 }
