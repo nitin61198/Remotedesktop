@@ -152,7 +152,11 @@ body {
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
-
+.h3{
+  color: #F22E6C;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
 /*-----------------------------------*\
   #WHATSAPP FLOATING ICON
 \*-----------------------------------*/
@@ -477,8 +481,10 @@ display: block;
   transform: translateX(0);
 }
 
-.about-text {
-  font-size: var(--fs-8);
+
+
+.about-text1 {
+  font-size: var(--fs-5);
   margin-block-end: 20px;
   text-align: justify;
 }
@@ -872,6 +878,10 @@ display: block;
   }
   .copyright-link{
     text-decoration: none;
+  }
+
+  .title5{
+    margin-top: 10px;
   }
 }
 
